@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Cv de Mathis Serra, étudiant de l'école la Plateforme a Marseille, codé en html ce CV ne dispose pas de CSS,
+    et est donc sans aucune ameilloration Graphique de la page WEB, il est donc au couleur de HTML 3/4 1997.">
+    <link rel="style" href="css/style.css">
+    <title>Mon CV</title>
+</head>
+<body>
+    <!-- Le header prends toute la partie superieure de la page, avec un titre <h1> et un sous titre <h4> -->
+    <header>
+        <h1>CV : Mathis serra</h1>
+        
+        <h4>Étudiant en informatique</h4>
+    </header>
+
+    <!-- La section contient les informations personnelles. J'ai rajouté des icons trouves sur le site ion-icon a l'aide de la commande <span> -->
+    <section class="contact">
+        <h2><i>Informations de contact</i></h2>
+        <ul>
+            <li><span class="icon"><ion-icon name="person-outline"></ion-icon></span> : 20 ans </li>
+            
+            <li><span class="icon"><ion-icon name="location-outline"></ion-icon></span> : 92 boulevard Sakakini</li> 
+            
+            <li><span class="icon"><ion-icon name="call-outline"></ion-icon></span> : 07 70 45 07 84</li>
+            
+            <li><span class="icon"><ion-icon name="flag-outline"></ion-icon></span> : Francais</li>
+        </ul>
+    </section>
+   
+   <!-- La section comporte un paragraphe qui décrit mon objectif professionel, avec la balise de sous titre <h2>
+    et la balise de paragraphe <p> -->
+    <section class="Objectif">
+        <H2> <i>Objectif professionel</i> </H2>
+        
+        <p>Je suis actuellment en première année de prepa inforamatique a l'école de la plateforme.<br> J'ai actuellement pour but de devenir développeur web back-end et donc pouvoir acquerir énormement de connaissance en d'autres languages comme python, PHP, Ruby, ect. </p>
+    </section>
+
+
+
+    <!-- La section comporte les études que j'ai faites ainsi que les diplômes que j'ai obtenue, les informations sont rangées dans un liste non-ordonnées <ul>, 
+        j'ai aussi utilisé la balise <strong> pour mettre le texte en gras -->
+    <section class="Études">
+        <h2><i>Études</i></h2>
+        <ul>
+            <li><strong> Collège Yves Montant</strong> : Brevet des collège : 2017 </li>
+            
+            <li><strong> Lycée Georges Duby</strong> : Baccalauréat : 2021 </li>
+            
+            <li><strong> École de la plateforme</strong> : Prépa informatique : 2023 - 2023 </li>
+        </ul>
+    </section>
+
+
+
+
+
+    <!-- La section comporte mes experiences professionelles au cours des années, elles sont rangées dans une liste ordonnées <ol> -->
+    <section class="Experience"> 
+        <h2><i>Expérience</i></h2>
+        
+        <ol>
+            <li><strong>Rians</strong> 83560 
+                <article>Ouvrier agricole : <strong>Juin</strong> 2020 - <strong>Septembre</strong> 2020</article>  </li>
+            
+            <li><strong>Aix-en-Provence</strong> 13100
+                <article>Employé polivalent : <strong>Juin</strong> 2021 - <strong>Septembre</strong> 2021</article></li>
+           
+            <li><strong>Marseille</strong> 13010
+                <article>Manager Commerce clientèle : <strong> Octobre</strong> 2021 - <strong>Maintenant</strong> 2023</article></li>
+        
+        </ol>
+    </section>
+
+
+
+
+
+    <!-- La section contient Mes compétences avec un sous titre et un liste non-ordonnés <ul>
+        ainsi que des images redimensionnés a l'aide de height et width. J'ai rajouté un bar de compétence a l'aide de la balise <progresse> -->
+    <section class=" competence" > 
+        <h3> Mes Compétences</h3>
+        
+        <ul>
+            <li>HTML  <img src="images/html.png" alt="Logo HTML" height="15px" > </li>
+                <progress value="80" max="100"></progress>
+            
+            <li>CSS <img src="images/css.png"  alt="Logo CSS" height="15px" ></li>
+                <progress value="80" max="100"></progress>
+            
+            <li>BASH <img src="images/bash.png" alt="Logo de BASH" height="15px" width="15px"></li>
+                <progress value="60" max="100"></progress>
+            
+            <li>Python <img src="images/python.png" alt="Logo Python" height="15px" width="15px"></li>
+                <progress value="40" max="100"></progress>
+            
+            <li>JavaScript <img src="images/js.webp" alt="Logo de JavaScript" height="15px" width="15px"></li>
+                <progress value="30" max="100"></progress>
+        
+        </ul>
+    
+    </section>
+   
+
+    <!-- Le footer represente la fin de la page c'est un peu l'inverse du header, J'ai rajouté une la balise <a href> qui permet d'implenté un lien sur le text,
+        ici Github -->
+    <footer> 
+        <p><strong>Différent lien qui peuvent être utiles</strong></p>
+        
+        <img src="images/github.png" alt="Logo de Github" height="15px"><a href="https://github.com/mathis-serra"> Github</a>
+        
+        <img src="images/Linkedin.png" alt="Logo de Linkedin" height="15px"><a href="https://www.linkedin.com/in/mathis-serra-2b1b3b1b9/"> Linkedin</a>
+        
+        <img src="images/pdf.jpeg" alt="Logo de PDF" height="15px"><a href="mon-cv.pdf" download="CV Mathis serra.pdf"> CV en PDF</a>
+    </footer>
+
+
+
+
+
+    <!-- J'ai rajouté des icones a l'aide de la balise <ion-icon>, la balise <script> est la pour importé la bibliothèque des icons  -->
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+</body>
+</html>
